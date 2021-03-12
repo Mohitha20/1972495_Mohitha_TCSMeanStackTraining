@@ -1,0 +1,65 @@
+.Resturant{   /* global class selector */   
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+background-color: rgba(247, 170, 102, 0.596);
+font-weight: bold;
+text-align: center;
+color:rgb(83, 20, 155);
+}  
+
+.AboutUs{
+font-family:monospace;
+font-size: 25px;
+font-style: italic;
+text-align: center;
+color:rgb(219, 21, 7)
+}
+
+#backgraoundimage{
+    height: auto;
+    left: 0;
+    margin:0;
+    min-height: 100%;
+    min-width: 674px;
+    padding:0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:-1;
+}
+/*.dropdown{
+    position:relative;
+    background-color: rgb(230, 214, 70);
+    size:30px;
+    color: rgb(82, 104, 231);
+    padding:20px;
+    margin:auto;
+    display: grid;
+    border-radius: 30%;*/
+
+
+.nav{
+    background-color: rgb(232, 239, 240);
+    overflow:hidden;
+}
+
+.nav a {
+    float:left;
+    color:rgb(14, 13, 13);
+    text-align:center;
+    padding:15px;
+    font-size:17px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav a:hover{
+    background-color: rgb(98, 194, 162);
+    color:black
+}
+
+.nav a.active{
+    background-color: rgb(98, 194, 162);
+    color:black
+}
