@@ -1,0 +1,75 @@
+.Planner{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:rgb(238, 168, 63);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #27299b71;
+  }
+
+  tr:nth-child(odd) {
+      background-color: #a49ec46c;
+  }
+
+  #div-body-pm {
+      border: solid coral 2px;
+      width: 500px;
+      height: auto;
+      padding:20px;
+      margin-top: 100px;
+      margin-bottom:175px;
+      margin-left: 350px;
+      margin-right:350px
+
+  }
+
+
+  .h1-pm {
+    text-align: center;
+  }
+
+  .back {
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    background-color: yellowgreen;
+    border: none;
+    text-decoration: none;
+
+  }
+
+  .back:hover {
+    background-color: #3e8e41
+  }
+
+  .back:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+
+  .index {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    float: left;
+  }
