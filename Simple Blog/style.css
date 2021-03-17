@@ -1,0 +1,75 @@
+h2{
+    font-weight: bold;
+    text-align:left;
+    font-family: cursive;
+    font-size: 50px;
+    color:rgba(59, 101, 121, 0.918);
+    text-decoration:dashed;
+    font-variant: small-caps;
+    text-shadow:-2px -1px 0 rgb(135, 199, 241),-1px -1px;
+    
+   
+
+}
+body{
+    background-image:url(image3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:1400px 800px;
+    background-position: center;
+}
+label{
+    font-weight:bold;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}
+.nav-link{
+   
+    margin:0%;
+    margin-left:50px;
+    font-family: serif;
+    font-size: 25px;
+    color:rgba(61, 104, 124, 0.918);
+    text-decoration:dashed;
+    font-variant: small-caps;
+    text-shadow:-2px -1px 0 rgb(241, 142, 155),-1px -1px;
+    
+    
+    
+}
+.userField{
+    border: rgba(61, 104, 124, 0.918) solid 2px;
+    border-radius: 8px;
+    display: inline-block;
+    font-family:cursive;
+    font-size: 20px;
+    text-align: left;
+    float: right;
+    width: 200px;
+    
+}
+.underline{
+    text-decoration: underline;
+}
+#userInfo{
+    width: 300px;
+    font-size:18px;
+    font-family:monospace;
+    color:rgb(250, 246, 246);
+    text-shadow:-2px -1px 0 rgb(235, 80, 80),-1px -1px;
+    padding-left:20px;
+}
+#image{
+    font-size:18px;
+    font-family:monospace;
+    color:rgb(226, 110, 110);
+    text-shadow:-2px -1px 0 rgb(233, 242, 248),-1px -1px;
+    padding-left:20px;
+}
+#image1{
+    font-size:18px;
+    font-family:monospace;
+    color:rgb(250, 246, 246);
+    text-shadow:-2px -1px 0 rgb(235, 80, 80),-1px -1px;
+    padding-left:20px; 
+}
