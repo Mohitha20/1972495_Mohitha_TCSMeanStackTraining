@@ -1,0 +1,46 @@
+body{
+    background-image: url(flower.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:1400px 800px;
+    background-position: center;
+}
+h1{
+    background-color: rgb(170, 238, 238);
+    font-size:50px;
+    font-family:cursive;
+    font-weight: bold;
+    text-shadow:-2px -1px 0 rgb(240, 86, 188),-1px -1px;
+}
+
+
+.abc{
+    background-color: rgb(170, 238, 238);
+    font-size:25px;
+    font-family:cursive;
+    text-shadow:-2px -1px 0 rgb(240, 86, 188),-1px -1px;
+}
+.col-10{
+    font-size:20px;
+    font-family:cursive;
+    text-shadow:-2px -1px 0 rgb(226, 135, 196),-1px -1px;
+}
+.col border border-dark border-2 p-2 m-3{
+  min-height:500px;
+  background-image:url(rose.jpg);
+  background-size: cover;
+  background-position:center;
+    
+}
+.row{
+    text-shadow:-2px -1px 0 rgb(231, 135, 199),-1px -1px;
+    font-size:15px;
+    font-family:cursive;
+}
+
+.flowers{
+    padding-left: 700px;
+    padding-right:250px;
+    padding-top: 100px;
+}
+

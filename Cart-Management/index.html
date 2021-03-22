@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-Management</title>
+    <script src="CartManagement.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+<body>
+    
+        <h1 style="text-align: center; padding-top: 10px; color:cadetblue">POPULAR BOQUETS</h2>
+            <div class="abc">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">About US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Flowers
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Rose</a>
+                        <a class="dropdown-item" href="#">Tulips</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">package</a>
+                      </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact US</a>
+                      </li>
+                  </ul>
+                  <div class="col-sm-3 col-md-3 pull-right">
+                    <form class="navbar-form" role="search">
+                  <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                  </div>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+              
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-10">
+                    <b id="cartSize">Cart Size: 0</b> 
+                </div>
+                <div class="col-2">
+                    <a href="shopCart.html" class="fs-5">Checkout</a> 
+                </div>
+            </div>
+            <div class="row">
+                    
+                <div class="col border border-dark border-2 p-2 m-3">
+                    <p class="fs-2 text-center">Rose</p>
+                    <p class="fs-3 text-center">$10</p>
+                    <input type="button" class="btn btn-outline-success " value="add to cart" onclick="addToCart('Rose',10)"/>
+                   
+                </div>
+                
+                <div class="col border border-dark border-2 p-2 m-3">
+                    <p class="fs-2 text-center">Tulips</p>
+                    <p class="fs-3 text-center">$12</p>
+                    <input type="button" class="btn btn-outline-success " value="add to cart" onclick="addToCart('Tulips',12)"/>
+                </div>
+                <div class="col border border-dark border-2 p-2 m-3">
+                    <p class="fs-2 text-center">Orchids</p>
+                    <p class="fs-3 text-center">$20</p>
+                    <input type="button" class="btn btn-outline-success " value="add to cart" onclick="addToCart('Orchids',20)"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border border-dark border-2 p-2 m-3">
+                    <p class="fs-2 text-center">Jasmine</p>
+                    <p class="fs-3 text-center">$30</p>
+                    <input type="button" class="btn btn-outline-success " value="add to cart" onclick="addToCart('Jasmine', 0)"/>
+                </div>
+                <div class="col border border-dark border-2 p-2 m-3">
+                    <p class="fs-2 text-center">Sun Flower</p>
+                    <p class="fs-3 text-center">$5</p>
+                    <input type="button" class="btn btn-outline-success " value="add to cart" onclick="addToCart('Sun flower',5)"/>
+                </div>
+                <div class="col border border-dark border-2 p-2 m-3">
+                    <p class="fs-2 text-center">Rose Boquet</p>
+                    <p class="fs-3 text-center">$50</p>
+                    <input type="button" class="btn btn-outline-success " value="add to cart" onclick="addToCart('Rose Boquet',50)"/>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
