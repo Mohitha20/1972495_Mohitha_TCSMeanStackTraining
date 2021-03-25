@@ -1,0 +1,23 @@
+#main{
+    border: 2px rgb(238, 157, 157) solid;
+    width:400px;
+    height: 350px;
+    padding: 5px 20px;
+    margin: 20px;
+    background-color: rgba(10, 10, 10, 0.753);
+    margin-top:50px;
+    margin-left:475px;
+}
+h2{
+    text-align: center;
+    color: rgb(238, 157, 157);
+}
+label,a,p{
+    color: rgb(238, 157, 157);
+    margin: 8px;
+    
+}
+.btn{
+    border-radius: 170px;
+    background-color: rgba(61, 158, 153, 0.973);
+}
