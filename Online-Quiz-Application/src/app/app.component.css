@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    color: rgb(194, 18, 18);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #deb887;
+}
+input{
+   margin-left: 600px;
+   font-size: 25px;
+   background-color: coral;
+
+}

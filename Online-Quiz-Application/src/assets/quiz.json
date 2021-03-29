@@ -1,0 +1,31 @@
+[
+    {"question":" Present CEO of TATA Consultancy Services Limited?",
+        "answer1":"F. C. Kohli","answer2":"Rajesh Gopinathan","answer3":"Natarajan Chandrasekaran","answer4":"Ratan TATA","correctAnswer":2},
+
+    {"question":"Present CEO of SpaceX?",
+        "answer1":"Tim Cook","answer2":"Jeff Bezos","answer3":"Elon Musk","answer4":"Mark Zuckerberg","correctAnswer":3},
+
+    {"question":"Present CEO of APPLE?",
+        "answer1":"Jeff Bezos","answer2":"Elon Musk","answer3":"Tim Cook","answer4":"Mark Zuckerberg","correctAnswer":3},
+
+    {"question":"Present CEO of TESLA?",
+        "answer1":"Elon Musk","answer2":"Jeff Bezos","answer3":"Mark Zuckerberg","answer4":"Tim Cook","correctAnswer":1},
+
+    {"question":"Present CEO of  Mercedes-Benz?",
+        "answer1":"Harald Kruger","answer2":"Jim Farley","answer3":"Akio Toyoda","answer4":"Ola Kallenius","correctAnswer":4},
+
+    {"question":"Present CEO of FORD?",
+        "answer1":"Jim Farley","answer2":"Harald Kruger","answer3":"Ola Kallenius","answer4":"Mark Zuckerberg","correctAnswer":1},
+
+    {"question":"Present CEO Of AMAZON?",
+        "answer1":"Jeff Bezos","answer2":"Tim-cook","answer3":"Sundar Pichai","answer4":"Mark Zuckerberg","correctAnswer":1},
+
+    {"question":"Present CEO of GOOGLE?",
+        "answer1":"Mark Zuckerberg","answer2":"Sundar Pichai","answer3":"Elon Musk","answer4":"None of Above","correctAnswer":2},
+
+    {"question":"Present CEO of FACEBOOK?",
+        "answer1":"Bill Gates","answer2":"Jeff Bezos","answer3":"Kevin Systrom","answer4":"None of the above","correctAnswer":4},
+        
+    {"question":"Present CEO of Rolls Royce?",
+        "answer1":"Warren East", "answer2":"Mike Sievert", "answer3":"Stefano Domenicali","answer4":"Ryan Roslansky","correctAnswer":1}
+]

@@ -1,0 +1,10 @@
+<div>
+  <h1>Online Quiz Application</h1>
+  <br/>
+  
+  <input type="button" class ="btn btn-light" [value]="btn" (click)="change()"/>
+  
+  <div *ngIf="flag">
+    <app-quiz></app-quiz> <!--selector Id-->
+  </div>
+</div> 
