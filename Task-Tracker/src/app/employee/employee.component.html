@@ -1,0 +1,66 @@
+<h1>Task-Tracker</h1>
+<br/>
+<div class="container">
+      <mat-grid-list cols="2" rowHeight="500px">
+        <mat-grid-tile cols="3" rows="8" style="background-color:rgb(131, 130, 134);">
+        <mat-card >
+          <mat-card-header>
+              <mat-card-title>Do-tasks</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <form #taskRef="ngForm" (ngSubmit)="storeTask(taskRef.value)">        
+              <mat-form-field>
+                <mat-label>Id</mat-label>
+                <input matInput type="text" name="id" id="idReset" ngModel/>
+              </mat-form-field>
+              <br/>
+              <mat-form-field>
+                <mat-label>Name</mat-label>
+                <input matInput type="text" name="name" id="nameReset" ngModel/>
+              </mat-form-field>
+              <br/>
+              <mat-form-field>
+                <mat-label>Task</mat-label>
+                <input matInput type="text" name="task" id="taskReset" ngModel/>
+              </mat-form-field>
+              <br/>
+              <mat-form-field>
+                <mat-label>Deadline</mat-label>
+                <input matInput type="date" name="deadline" id="dReset" ngModel/>
+              </mat-form-field><br/>
+            <button mat-raised-button color="primary" type="submit">Submit</button>
+            <button mat-raised-button color="accent" type="reset">Reset</button>
+            </form>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+        <mat-grid-tile  cols="5" rows="8" style="background-color:rgb(229, 186, 211);color: white;">
+            <mat-card >
+                <mat-card-header >
+                    <mat-card-title style="color: rgb(121, 37, 231);font-weight: bold;">Do-List</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                    <table class="myTable" id="tasks">
+                        <thead style="border: 5px; color: rgb(0, 174, 255);">
+                            <tr>
+                            <th>ID</th><br/>
+                            <th>Name</th><br/>
+                            <th>Task</th><br/>
+                            <th>DeadLine</th><br/>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let task of taskArr">
+                                <td>{{task.id}}</td><br/>
+                                <td>{{task.name}}</td><br/>
+                                <td>{{task.task}}</td><br/>
+                                <td>{{task.deadline}}</td><br/>
+                            </tr>
+    
+                        </tbody>
+                    </table>
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+      </div>
