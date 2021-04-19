@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatLog</title>
+    <h1 style="text-align: center;color: rgb(22, 22, 184);font-family:sans-serif;">CHATLOG</h1>
+    <script src="/socket.io/socket.io.js"></script> <!--socket library file is connected -->
+    <script type="text/JavaScript">
+
+    //connecting with server program
+        var socket = io();  
+        
+        
+        function ChatLog() {
+            var data_name = document.getElementById("name").value //retrieving the value using document.getElementById
+            var data_message = document.getElementById("message").value
+            
+            socket.emit('name',data_name)  //same value emitting to server
+            socket.emit('msg',data_message)
+
+        }
+    </script>
+</head>
+<body style="text-align:center;font-family: cursive; font-size:20px;background-color: rgb(147, 181, 246);">
+    <label>Name: </label>
+    <input type="text" id="name"/><br>
+    <label>Message: </label>
+    <input type="text" id="message"/><br>
+    <input type="button" value="Send" onClick="ChatLog()"/>
+</body>
+</html>
